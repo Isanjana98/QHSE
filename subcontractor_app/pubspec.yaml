@@ -1,0 +1,37 @@
+name: subcontractor_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  app_links: ^6.4.1
+  http: ^1.6.0
+  flutter_secure_storage: ^10.0.0
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset image path declaration
+  assets:
+    - assets/images/p.jpg
+    - assets/images/q.jpg
+    - assets/images/r.jpg
+    - assets/images/s.jpg
+    - assets/images/t.jpg
+    - assets/images/u.jpg
+    - assets/images/v.jpg
+    - assets/images/hayleys_logo.png

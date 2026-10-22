@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------
+# Secrets - NEVER commit these
+# ---------------------------------------------------------------
+db_config.php
+s3_config.php
+.env
+
+# ---------------------------------------------------------------
+# Composer dependencies
+# Run `composer install --no-dev` on the server after deploying,
+# or upload the vendor/ folder manually via FTP.
+# ---------------------------------------------------------------
+/vendor/
+
+# ---------------------------------------------------------------
+# User-uploaded and bulk media (served from S3 in production).
+# Files already committed stay tracked until you run:
+#   git rm -r --cached uploads assets/images/profiles
+# ---------------------------------------------------------------
+/assets/videos/
+/uploads/
+/assets/images/profiles/
+
+# ---------------------------------------------------------------
+# Logs & scratch
+# ---------------------------------------------------------------
+*.log
+
+# ---------------------------------------------------------------
+# OS / editor noise
+# ---------------------------------------------------------------
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Deploy artifacts
+*.zip
